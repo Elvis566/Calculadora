@@ -11,3 +11,8 @@ function resta(){
     let resta = parseInt(num1.value)-parseInt(num2.value);
     resultado.innerHTML=" El Resultado es: " +(resta);
 }
+
+function multiplicacion(){
+    let multiplicacion = parseInt(num1.value)*parseInt(num2.value);
+    resultado.innerHTML=" El Resultado es: " +(multiplicacion);
+}
