@@ -16,3 +16,7 @@ function multiplicacion(){
     let multiplicacion = parseInt(num1.value)*parseInt(num2.value);
     resultado.innerHTML=" El Resultado es: " +(multiplicacion);
 }
+function divicion(){
+    let divicion = parseInt(num1.value)/parseInt(num2.value);
+    resultado.innerHTML=" El Resultado es: " +(divicion);
+}
